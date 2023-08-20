@@ -32,7 +32,7 @@ body {
   /* This fixes browser font size accessibility */
   font-size: 1.6rem;
 
-  background-color: var(--clr-navy);
+  background-color: var(--clr-white);
   color: var(--clr-white);
 }
 
@@ -43,14 +43,13 @@ a {
 }
 
 /* Header */
-
 .header {
   background-color: var(--clr-navy);
   width: 100vw;
 }
 
 .header-wrapper {
-max-width: 80vw;
+  max-width: 75vw;
   margin: 0 auto;
   display:flex;
   justify-content: space-between;
@@ -65,7 +64,7 @@ max-width: 80vw;
 }
 
 .nav-img {
-  max-width: 10rem;
+  max-width: 7rem;
 }
 
 .nav-link {
@@ -75,4 +74,19 @@ max-width: 80vw;
 .nav-link:hover{
   text-decoration: underline;
   font-size: 2rem;
+}
+
+/* Hero */
+.hero {
+  background-color: var(--clr-navy);
+}
+
+/* Quote */
+.quote {
+  background-color: var(--clr-grey);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--clr-navy);
 }
