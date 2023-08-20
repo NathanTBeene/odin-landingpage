@@ -42,6 +42,25 @@ a {
   font-size: var(--fs-link);
 }
 
+p,h1,h2,h3 {
+  max-width: 60ch;
+}
+
+button {
+  background-color: var(--clr-blue);
+  border: none;
+  border-radius: 4px;
+  padding: .4rem 1.6rem;
+}
+
+button a {
+  font-size: var(--fs-small);
+}
+
+.subtitle {
+  color: var(--clr-grey)
+}
+
 /* Header */
 .header {
   background-color: var(--clr-navy);
@@ -79,7 +98,51 @@ a {
 /* Hero */
 .hero {
   background-color: var(--clr-navy);
+  width: 100vw;
 }
+
+
+.hero-wrapper{
+  background-color: var(--clr-navy);
+  max-width:75vw;
+  margin: auto;
+  display: flex;
+  padding: 5rem;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.hero-information {
+  max-width: 45ch;
+}
+
+.hero-title {
+  font-size: var(--fs-title);
+  line-height: 4.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-subtitle {
+  margin-bottom: 1.5rem;
+}
+
+.hero-img{
+  aspect-ratio: 16/9;
+  max-width: 40rem;
+}
+
+.hero-btn {
+  transition: all ease 0.3s;
+  color: var(--clr-white);
+}
+
+.hero-btn:hover{
+  cursor: pointer;
+  background-color: var(--clr-grey);
+  color: var(--clr-navy);
+}
+
 
 /* Quote */
 .quote {
