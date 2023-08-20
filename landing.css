@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --clr-navy: #1f2937;
+  --clr-blue: #3882f6;
+  --clr-white: #f9faf8;
+  --clr-grey: #e5e7eb;
+
+  --fs-regular: 1.6rem;
+  --fs-title: 4.8rem;
+  --fs-large: 3.6rem;
+  --fs-link: 1.8rem;
+
+  --fw-bold: 800;
+  --fw-light: 200;
+}
+
+body {
+  font-size: 1.6rem;
+}
