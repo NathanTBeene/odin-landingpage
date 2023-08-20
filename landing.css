@@ -6,7 +6,10 @@
   box-sizing: border-box;
 }
 
+/* Variables and Root Setup */
+
 :root {
+  /* Sets root font to be 10px for sizing. Fixed accessability in body. */
   font-size: 62.5%;
 
   --clr-navy: #1f2937;
@@ -23,6 +26,53 @@
   --fw-light: 200;
 }
 
+/* Basic Styles */
+
 body {
+  /* This fixes browser font size accessibility */
   font-size: 1.6rem;
+
+  background-color: var(--clr-navy);
+  color: var(--clr-white);
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr-white);
+  font-size: var(--fs-link);
+}
+
+/* Header */
+
+.header {
+  background-color: var(--clr-navy);
+  width: 100vw;
+}
+
+.header-wrapper {
+max-width: 80vw;
+  margin: 0 auto;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar{
+  flex: 1;
+  display: flex;
+  justify-content: right;
+  gap: 50px;
+}
+
+.nav-img {
+  max-width: 10rem;
+}
+
+.nav-link {
+  transition: all ease 0.3s
+}
+
+.nav-link:hover{
+  text-decoration: underline;
+  font-size: 2rem;
 }
