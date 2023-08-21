@@ -57,6 +57,10 @@ button a {
   font-size: var(--fs-small);
 }
 
+.wrapper {
+  max-width: 75vw;
+}
+
 .subtitle {
   color: var(--clr-grey)
 }
@@ -68,7 +72,6 @@ button a {
 }
 
 .header-wrapper {
-  max-width: 75vw;
   margin: 0 auto;
   display:flex;
   justify-content: space-between;
@@ -104,7 +107,6 @@ button a {
 
 .hero-wrapper{
   background-color: var(--clr-navy);
-  max-width:75vw;
   margin: auto;
   display: flex;
   padding: 5rem;
@@ -141,6 +143,45 @@ button a {
   cursor: pointer;
   background-color: var(--clr-grey);
   color: var(--clr-navy);
+}
+
+/* Random */
+
+.random-wrapper{
+  margin: auto;
+  /* border: solid red; */
+  padding: 2.4rem;
+  max-width: 50vw;
+}
+
+.random-grid {
+  /* border: solid red; */
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 2.4rem;
+}
+
+.random-item {
+  max-width:20rem;
+  /* border: solid green; */
+  margin: auto;
+  displaY: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.random-item-img {
+  max-width: 15rem;
+  border: solid 3px var(--clr-blue);
+  border-radius: 1rem;
+}
+
+.random-item-description {
+  color:var(--clr-navy);
+  font-size: var(--fs-regular);
 }
 
 
